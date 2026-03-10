@@ -1,0 +1,577 @@
+====================================================================================================
+Config3 所有可行解 (按 Fitness 由高到低排序)
+====================================================================================================
+
+最优解深度: 22
+最优F1分数: 0.8845
+可行深度范围: 4 - 38
+可行解总数: 35
+
+----------------------------------------------------------------------------------------------------
+Rank   Depth    Fitness      F1         Rules      TCAM%        SRAM%        Stages     Latency     
+----------------------------------------------------------------------------------------------------
+1      22       3.951989     0.8845     7228       54.6931      0.7376       7          0.964755    
+2      23       3.951801     0.8845     7400       54.9832      0.7406       7          0.967308    
+3      24       3.950820     0.8846     7516       54.9886      0.7254       7          0.968997    
+4      33       3.946376     0.8851     8002       54.8756      0.7348       7          0.975800    
+5      21       3.943216     0.8844     7026       53.1747      0.7591       7          0.961677    
+6      16       3.931099     0.8828     7120       52.7872      0.7629       7          0.963120    
+7      31       3.919413     0.8850     10180      54.4714      0.7528       7          1.001937    
+8      30       3.918124     0.8850     10658      54.9107      0.7190       7          1.006919    
+9      36       3.917981     0.8852     10250      54.2292      0.7149       7          1.002681    
+10     37       3.917857     0.8852     10263      54.2292      0.7149       7          1.002819    
+11     32       3.917495     0.8851     10106      54.0410      0.7551       7          1.001145    
+12     34       3.917360     0.8851     10120      54.0410      0.7528       7          1.001295    
+13     29       3.917035     0.8849     10100      54.1073      0.7149       7          1.001080    
+14     28       3.917006     0.8849     10103      54.1073      0.7149       7          1.001113    
+15     20       3.914745     0.8843     10704      54.9852      0.6780       7          1.007387    
+16     25       3.914301     0.8846     10865      54.9186      0.7098       7          1.009007    
+17     27       3.912709     0.8848     10083      53.5586      0.7149       7          1.000897    
+18     19       3.912338     0.8840     10494      54.5943      0.7326       7          1.005235    
+19     15       3.906319     0.8824     10512      54.8897      0.7442       7          1.005421    
+20     26       3.904600     0.8847     10034      52.4468      0.7185       7          1.000369    
+21     14       3.902612     0.8822     10248      54.1758      0.7348       7          1.002660    
+22     12       3.899998     0.8816     10076      54.0015      0.7517       7          1.000822    
+23     18       3.893924     0.8836     9892       51.5436      0.7105       7          0.998821    
+24     13       3.889883     0.8820     10005      52.2406      0.7334       7          1.000054    
+25     17       3.871763     0.8832     9192       47.7854      0.6490       6          0.990853    
+26     11       3.856422     0.8745     10072      52.8857      0.7511       7          1.000779    
+27     10       3.837120     0.8686     10244      54.5153      0.7149       7          1.002617    
+28     38       3.831916     0.8852     4629       31.7144      0.4001       4          0.916372    
+29     35       3.831809     0.8851     4617       31.7336      0.4001       4          0.916090    
+30     9        3.826444     0.8661     192        1.3320       0.1762       1          0.570825    
+31     8        3.795471     0.8528     132        1.1825       0.1762       1          0.530143    
+32     7        3.790838     0.8430     84         1.2101       0.1730       1          0.481070    
+33     6        3.763012     0.8288     54         1.2101       0.1730       1          0.433098    
+34     5        3.554745     0.7763     31         1.2101       0.1730       1          0.372840    
+35     4        3.413874     0.7352     16         1.2101       0.1730       1          0.301030    
+
+====================================================================================================
+详细解信息
+====================================================================================================
+
+解 #1
+----------------------------------------------------------------------------------------------------
+  Depth:           22
+  Fitness:         3.951989
+  F1 Score:        0.8845
+  Rule Count:      7228
+  TCAM Percentage: 54.6931%
+  SRAM Percentage: 0.7376%
+  Stages:          7
+  TCAM Util:       0.994420
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.964755
+  Match Config:    Total length:range, Protocol:exact, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):lpm, TCP flags (Syn):ternary
+
+解 #2
+----------------------------------------------------------------------------------------------------
+  Depth:           23
+  Fitness:         3.951801
+  F1 Score:        0.8845
+  Rule Count:      7400
+  TCAM Percentage: 54.9832%
+  SRAM Percentage: 0.7406%
+  Stages:          7
+  TCAM Util:       0.999695
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.967308
+  Match Config:    Total length:range, Protocol:exact, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):lpm, TCP flags (Syn):ternary
+
+解 #3
+----------------------------------------------------------------------------------------------------
+  Depth:           24
+  Fitness:         3.950820
+  F1 Score:        0.8846
+  Rule Count:      7516
+  TCAM Percentage: 54.9886%
+  SRAM Percentage: 0.7254%
+  Stages:          7
+  TCAM Util:       0.999793
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.968997
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):lpm, TCP flags (Syn):exact
+
+解 #4
+----------------------------------------------------------------------------------------------------
+  Depth:           33
+  Fitness:         3.946376
+  F1 Score:        0.8851
+  Rule Count:      8002
+  TCAM Percentage: 54.8756%
+  SRAM Percentage: 0.7348%
+  Stages:          7
+  TCAM Util:       0.997739
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.975800
+  Match Config:    Total length:range, Protocol:exact, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):exact, TCP flags (Syn):lpm
+
+解 #5
+----------------------------------------------------------------------------------------------------
+  Depth:           21
+  Fitness:         3.943216
+  F1 Score:        0.8844
+  Rule Count:      7026
+  TCAM Percentage: 53.1747%
+  SRAM Percentage: 0.7591%
+  Stages:          7
+  TCAM Util:       0.966812
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.961677
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):exact, TCP flags (Syn):ternary
+
+解 #6
+----------------------------------------------------------------------------------------------------
+  Depth:           16
+  Fitness:         3.931099
+  F1 Score:        0.8828
+  Rule Count:      7120
+  TCAM Percentage: 52.7872%
+  SRAM Percentage: 0.7629%
+  Stages:          7
+  TCAM Util:       0.959768
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.963120
+  Match Config:    Total length:range, Protocol:exact, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):exact, TCP flags (Syn):ternary
+
+解 #7
+----------------------------------------------------------------------------------------------------
+  Depth:           31
+  Fitness:         3.919413
+  F1 Score:        0.8850
+  Rule Count:      10180
+  TCAM Percentage: 54.4714%
+  SRAM Percentage: 0.7528%
+  Stages:          7
+  TCAM Util:       0.990390
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.001937
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #8
+----------------------------------------------------------------------------------------------------
+  Depth:           30
+  Fitness:         3.918124
+  F1 Score:        0.8850
+  Rule Count:      10658
+  TCAM Percentage: 54.9107%
+  SRAM Percentage: 0.7190%
+  Stages:          7
+  TCAM Util:       0.998377
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.006919
+  Match Config:    Total length:lpm, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #9
+----------------------------------------------------------------------------------------------------
+  Depth:           36
+  Fitness:         3.917981
+  F1 Score:        0.8852
+  Rule Count:      10250
+  TCAM Percentage: 54.2292%
+  SRAM Percentage: 0.7149%
+  Stages:          7
+  TCAM Util:       0.985985
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.002681
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:lpm, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #10
+----------------------------------------------------------------------------------------------------
+  Depth:           37
+  Fitness:         3.917857
+  F1 Score:        0.8852
+  Rule Count:      10263
+  TCAM Percentage: 54.2292%
+  SRAM Percentage: 0.7149%
+  Stages:          7
+  TCAM Util:       0.985985
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.002819
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:lpm, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #11
+----------------------------------------------------------------------------------------------------
+  Depth:           32
+  Fitness:         3.917495
+  F1 Score:        0.8851
+  Rule Count:      10106
+  TCAM Percentage: 54.0410%
+  SRAM Percentage: 0.7551%
+  Stages:          7
+  TCAM Util:       0.982564
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.001145
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #12
+----------------------------------------------------------------------------------------------------
+  Depth:           34
+  Fitness:         3.917360
+  F1 Score:        0.8851
+  Rule Count:      10120
+  TCAM Percentage: 54.0410%
+  SRAM Percentage: 0.7528%
+  Stages:          7
+  TCAM Util:       0.982564
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.001295
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #13
+----------------------------------------------------------------------------------------------------
+  Depth:           29
+  Fitness:         3.917035
+  F1 Score:        0.8849
+  Rule Count:      10100
+  TCAM Percentage: 54.1073%
+  SRAM Percentage: 0.7149%
+  Stages:          7
+  TCAM Util:       0.983768
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.001080
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:lpm, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #14
+----------------------------------------------------------------------------------------------------
+  Depth:           28
+  Fitness:         3.917006
+  F1 Score:        0.8849
+  Rule Count:      10103
+  TCAM Percentage: 54.1073%
+  SRAM Percentage: 0.7149%
+  Stages:          7
+  TCAM Util:       0.983768
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.001113
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:lpm, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #15
+----------------------------------------------------------------------------------------------------
+  Depth:           20
+  Fitness:         3.914745
+  F1 Score:        0.8843
+  Rule Count:      10704
+  TCAM Percentage: 54.9852%
+  SRAM Percentage: 0.6780%
+  Stages:          7
+  TCAM Util:       0.999732
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.007387
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:ternary, Dst Port:lpm, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #16
+----------------------------------------------------------------------------------------------------
+  Depth:           25
+  Fitness:         3.914301
+  F1 Score:        0.8846
+  Rule Count:      10865
+  TCAM Percentage: 54.9186%
+  SRAM Percentage: 0.7098%
+  Stages:          7
+  TCAM Util:       0.998520
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.009007
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:ternary, Dst Port:ternary, TCP flags (Reset):lpm, TCP flags (Syn):ternary
+
+解 #17
+----------------------------------------------------------------------------------------------------
+  Depth:           27
+  Fitness:         3.912709
+  F1 Score:        0.8848
+  Rule Count:      10083
+  TCAM Percentage: 53.5586%
+  SRAM Percentage: 0.7149%
+  Stages:          7
+  TCAM Util:       0.973793
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.000897
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:lpm, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #18
+----------------------------------------------------------------------------------------------------
+  Depth:           19
+  Fitness:         3.912338
+  F1 Score:        0.8840
+  Rule Count:      10494
+  TCAM Percentage: 54.5943%
+  SRAM Percentage: 0.7326%
+  Stages:          7
+  TCAM Util:       0.992624
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.005235
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):exact, Time to live:range, Src Port:ternary, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #19
+----------------------------------------------------------------------------------------------------
+  Depth:           15
+  Fitness:         3.906319
+  F1 Score:        0.8824
+  Rule Count:      10512
+  TCAM Percentage: 54.8897%
+  SRAM Percentage: 0.7442%
+  Stages:          7
+  TCAM Util:       0.997995
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.005421
+  Match Config:    Total length:ternary, Protocol:lpm, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):exact, TCP flags (Syn):ternary
+
+解 #20
+----------------------------------------------------------------------------------------------------
+  Depth:           26
+  Fitness:         3.904600
+  F1 Score:        0.8847
+  Rule Count:      10034
+  TCAM Percentage: 52.4468%
+  SRAM Percentage: 0.7185%
+  Stages:          7
+  TCAM Util:       0.953578
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.000369
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:lpm, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):exact
+
+解 #21
+----------------------------------------------------------------------------------------------------
+  Depth:           14
+  Fitness:         3.902612
+  F1 Score:        0.8822
+  Rule Count:      10248
+  TCAM Percentage: 54.1758%
+  SRAM Percentage: 0.7348%
+  Stages:          7
+  TCAM Util:       0.985014
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.002660
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):ternary, Time to live:ternary, Src Port:ternary, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #22
+----------------------------------------------------------------------------------------------------
+  Depth:           12
+  Fitness:         3.899998
+  F1 Score:        0.8816
+  Rule Count:      10076
+  TCAM Percentage: 54.0015%
+  SRAM Percentage: 0.7517%
+  Stages:          7
+  TCAM Util:       0.981845
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.000822
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):exact, Time to live:ternary, Src Port:range, Dst Port:ternary, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #23
+----------------------------------------------------------------------------------------------------
+  Depth:           18
+  Fitness:         3.893924
+  F1 Score:        0.8836
+  Rule Count:      9892
+  TCAM Percentage: 51.5436%
+  SRAM Percentage: 0.7105%
+  Stages:          7
+  TCAM Util:       0.937157
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.998821
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):exact, Time to live:range, Src Port:lpm, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #24
+----------------------------------------------------------------------------------------------------
+  Depth:           13
+  Fitness:         3.889883
+  F1 Score:        0.8820
+  Rule Count:      10005
+  TCAM Percentage: 52.2406%
+  SRAM Percentage: 0.7334%
+  Stages:          7
+  TCAM Util:       0.949830
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.000054
+  Match Config:    Total length:ternary, Protocol:lpm, IPV4 Flags (DF):ternary, Time to live:ternary, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #25
+----------------------------------------------------------------------------------------------------
+  Depth:           17
+  Fitness:         3.871763
+  F1 Score:        0.8832
+  Rule Count:      9192
+  TCAM Percentage: 47.7854%
+  SRAM Percentage: 0.6490%
+  Stages:          6
+  TCAM Util:       0.868826
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.990853
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):exact, Time to live:range, Src Port:ternary, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #26
+----------------------------------------------------------------------------------------------------
+  Depth:           11
+  Fitness:         3.856422
+  F1 Score:        0.8745
+  Rule Count:      10072
+  TCAM Percentage: 52.8857%
+  SRAM Percentage: 0.7511%
+  Stages:          7
+  TCAM Util:       0.961559
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.000779
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):exact, Time to live:range, Src Port:range, Dst Port:ternary, TCP flags (Reset):exact, TCP flags (Syn):exact
+
+解 #27
+----------------------------------------------------------------------------------------------------
+  Depth:           10
+  Fitness:         3.837120
+  F1 Score:        0.8686
+  Rule Count:      10244
+  TCAM Percentage: 54.5153%
+  SRAM Percentage: 0.7149%
+  Stages:          7
+  TCAM Util:       0.991188
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  1.002617
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):exact, Time to live:range, Src Port:lpm, Dst Port:ternary, TCP flags (Reset):exact, TCP flags (Syn):ternary
+
+解 #28
+----------------------------------------------------------------------------------------------------
+  Depth:           38
+  Fitness:         3.831916
+  F1 Score:        0.8852
+  Rule Count:      4629
+  TCAM Percentage: 31.7144%
+  SRAM Percentage: 0.4001%
+  Stages:          4
+  TCAM Util:       0.576626
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.916372
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):lpm, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):exact, TCP flags (Syn):ternary
+
+解 #29
+----------------------------------------------------------------------------------------------------
+  Depth:           35
+  Fitness:         3.831809
+  F1 Score:        0.8851
+  Rule Count:      4617
+  TCAM Percentage: 31.7336%
+  SRAM Percentage: 0.4001%
+  Stages:          4
+  TCAM Util:       0.576975
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.916090
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):lpm, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):exact, TCP flags (Syn):ternary
+
+解 #30
+----------------------------------------------------------------------------------------------------
+  Depth:           9
+  Fitness:         3.826444
+  F1 Score:        0.8661
+  Rule Count:      192
+  TCAM Percentage: 1.3320%
+  SRAM Percentage: 0.1762%
+  Stages:          1
+  TCAM Util:       0.024218
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.570825
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #31
+----------------------------------------------------------------------------------------------------
+  Depth:           8
+  Fitness:         3.795471
+  F1 Score:        0.8528
+  Rule Count:      132
+  TCAM Percentage: 1.1825%
+  SRAM Percentage: 0.1762%
+  Stages:          1
+  TCAM Util:       0.021500
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.530143
+  Match Config:    Total length:range, Protocol:lpm, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):ternary
+
+解 #32
+----------------------------------------------------------------------------------------------------
+  Depth:           7
+  Fitness:         3.790838
+  F1 Score:        0.8430
+  Rule Count:      84
+  TCAM Percentage: 1.2101%
+  SRAM Percentage: 0.1730%
+  Stages:          1
+  TCAM Util:       0.022002
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.481070
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):lpm
+
+解 #33
+----------------------------------------------------------------------------------------------------
+  Depth:           6
+  Fitness:         3.763012
+  F1 Score:        0.8288
+  Rule Count:      54
+  TCAM Percentage: 1.2101%
+  SRAM Percentage: 0.1730%
+  Stages:          1
+  TCAM Util:       0.022002
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.433098
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):lpm
+
+解 #34
+----------------------------------------------------------------------------------------------------
+  Depth:           5
+  Fitness:         3.554745
+  F1 Score:        0.7763
+  Rule Count:      31
+  TCAM Percentage: 1.2101%
+  SRAM Percentage: 0.1730%
+  Stages:          1
+  TCAM Util:       0.022002
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.372840
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):lpm
+
+解 #35
+----------------------------------------------------------------------------------------------------
+  Depth:           4
+  Fitness:         3.413874
+  F1 Score:        0.7352
+  Rule Count:      16
+  TCAM Percentage: 1.2101%
+  SRAM Percentage: 0.1730%
+  Stages:          1
+  TCAM Util:       0.022002
+  SRAM Util:       None
+  Stage Util:      None
+  Latency Factor:  0.301030
+  Match Config:    Total length:range, Protocol:ternary, IPV4 Flags (DF):ternary, Time to live:range, Src Port:range, Dst Port:range, TCP flags (Reset):ternary, TCP flags (Syn):lpm
+

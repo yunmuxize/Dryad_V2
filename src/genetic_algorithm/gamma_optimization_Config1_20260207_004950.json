@@ -1,0 +1,143 @@
+{
+  "config_name": "Config1",
+  "target_depth": 5,
+  "optimization_params": {
+    "gamma_range": [
+      0.5,
+      3.0
+    ],
+    "initial_step": 0.2,
+    "num_cores": 4,
+    "max_iterations": 10,
+    "tolerance": 0.1
+  },
+  "final_result": {
+    "best_gamma": 1.35,
+    "best_depth": 5,
+    "best_fitness": 1.061366653307807,
+    "depth_error": 0
+  },
+  "statistics": {
+    "total_tests": 5,
+    "feasible_tests": 5,
+    "total_time": 27.984160900115967,
+    "avg_time_per_test": 5.596832180023194
+  },
+  "exploration_history": [
+    {
+      "gamma": 1.35,
+      "depth": 5,
+      "feasible": true,
+      "fitness": 1.061366653307807,
+      "f1": 0.7763,
+      "rule_count": 31,
+      "tcam_pct": 1.210122497687383,
+      "sram_pct": 0.17303531298969713,
+      "stages": 1,
+      "tcam_util": 0.2420244995374766,
+      "match_config": {
+        "Total length": 2,
+        "Protocol": 1,
+        "IPV4 Flags (DF)": 1,
+        "Time to live": 2,
+        "Src Port": 2,
+        "Dst Port": 2,
+        "TCP flags (Reset)": 1,
+        "TCP flags (Syn)": 3
+      },
+      "time": 5.791962146759033
+    },
+    {
+      "gamma": 1.55,
+      "depth": 5,
+      "feasible": true,
+      "fitness": 0.9867985686160933,
+      "f1": 0.7763,
+      "rule_count": 31,
+      "tcam_pct": 1.210122497687383,
+      "sram_pct": 0.17303531298969713,
+      "stages": 1,
+      "tcam_util": 0.2420244995374766,
+      "match_config": {
+        "Total length": 2,
+        "Protocol": 1,
+        "IPV4 Flags (DF)": 1,
+        "Time to live": 2,
+        "Src Port": 2,
+        "Dst Port": 2,
+        "TCP flags (Reset)": 1,
+        "TCP flags (Syn)": 3
+      },
+      "time": 5.724672794342041
+    },
+    {
+      "gamma": 1.75,
+      "depth": 5,
+      "feasible": true,
+      "fitness": 0.9122304839243797,
+      "f1": 0.7763,
+      "rule_count": 31,
+      "tcam_pct": 1.210122497687383,
+      "sram_pct": 0.17303531298969713,
+      "stages": 1,
+      "tcam_util": 0.2420244995374766,
+      "match_config": {
+        "Total length": 2,
+        "Protocol": 1,
+        "IPV4 Flags (DF)": 1,
+        "Time to live": 2,
+        "Src Port": 2,
+        "Dst Port": 2,
+        "TCP flags (Reset)": 1,
+        "TCP flags (Syn)": 3
+      },
+      "time": 5.8078038692474365
+    },
+    {
+      "gamma": 1.95,
+      "depth": 5,
+      "feasible": true,
+      "fitness": 0.837662399232666,
+      "f1": 0.7763,
+      "rule_count": 31,
+      "tcam_pct": 1.210122497687383,
+      "sram_pct": 0.17303531298969713,
+      "stages": 1,
+      "tcam_util": 0.2420244995374766,
+      "match_config": {
+        "Total length": 2,
+        "Protocol": 1,
+        "IPV4 Flags (DF)": 1,
+        "Time to live": 2,
+        "Src Port": 2,
+        "Dst Port": 2,
+        "TCP flags (Reset)": 1,
+        "TCP flags (Syn)": 3
+      },
+      "time": 5.819942474365234
+    },
+    {
+      "gamma": 2.15,
+      "depth": 5,
+      "feasible": true,
+      "fitness": 0.7630943145409524,
+      "f1": 0.7763,
+      "rule_count": 31,
+      "tcam_pct": 1.210122497687383,
+      "sram_pct": 0.17303531298969713,
+      "stages": 1,
+      "tcam_util": 0.2420244995374766,
+      "match_config": {
+        "Total length": 2,
+        "Protocol": 1,
+        "IPV4 Flags (DF)": 1,
+        "Time to live": 2,
+        "Src Port": 2,
+        "Dst Port": 2,
+        "TCP flags (Reset)": 1,
+        "TCP flags (Syn)": 3
+      },
+      "time": 4.839779615402222
+    }
+  ]
+}

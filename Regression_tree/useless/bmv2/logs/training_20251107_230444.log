@@ -1,0 +1,43 @@
+2025-11-07 23:04:44,863 - INFO - ============================================================
+2025-11-07 23:04:44,863 - INFO - Dryad BMv2 Enhanced Predictor Initialized
+2025-11-07 23:04:44,863 - INFO - GPU acceleration: ENABLED
+2025-11-07 23:04:44,863 - INFO - ============================================================
+2025-11-07 23:04:44,863 - INFO - === Loading and Processing Data ===
+2025-11-07 23:04:44,879 - INFO - Loaded 2503 records
+2025-11-07 23:04:44,879 - INFO - Checking data quality...
+2025-11-07 23:04:44,887 - INFO - CPU stats: mean=0.508, std=0.079
+2025-11-07 23:04:44,888 - INFO - Memory stats: mean=26.867, std=0.318
+2025-11-07 23:04:44,959 - INFO - Creating enhanced derived features...
+2025-11-07 23:04:44,993 - INFO - Added enhanced derived features. Final shape: (2503, 16)
+2025-11-07 23:04:44,995 - INFO - CPU unique values (×100): [30 39 40 49 50 59 60 70 80 90]
+2025-11-07 23:04:44,995 - INFO - CPU number of classes: 10
+2025-11-07 23:04:44,995 - INFO - CPU class distribution:
+2025-11-07 23:04:44,995 - INFO -   0.30 (30): 22 samples (0.88%)
+2025-11-07 23:04:44,995 - INFO -   0.39 (39): 1 samples (0.04%)
+2025-11-07 23:04:44,995 - INFO -   0.40 (40): 517 samples (20.66%)
+2025-11-07 23:04:44,995 - INFO -   0.49 (49): 3 samples (0.12%)
+2025-11-07 23:04:44,995 - INFO -   0.50 (50): 1280 samples (51.14%)
+2025-11-07 23:04:44,995 - INFO -   0.59 (59): 3 samples (0.12%)
+2025-11-07 23:04:44,995 - INFO -   0.60 (60): 604 samples (24.13%)
+2025-11-07 23:04:44,995 - INFO -   0.70 (70): 62 samples (2.48%)
+2025-11-07 23:04:44,995 - INFO -   0.80 (80): 10 samples (0.40%)
+2025-11-07 23:04:44,995 - INFO -   0.90 (90): 1 samples (0.04%)
+2025-11-07 23:04:44,995 - INFO - Feature matrix shape: (2503, 16)
+2025-11-07 23:04:44,995 - INFO - Memory target shape: (2503,)
+2025-11-07 23:04:44,995 - INFO - CPU categorical target shape: (2503,)
+2025-11-07 23:04:44,995 - INFO - CPU range: 0.30 - 0.90
+2025-11-07 23:04:44,996 - INFO - Memory range: 26.03 - 27.68
+2025-11-07 23:04:45,001 - INFO - Training samples: 2002
+2025-11-07 23:04:45,001 - INFO - Test samples: 501
+2025-11-07 23:04:45,001 - INFO - Memory training target shape: (2002,)
+2025-11-07 23:04:45,001 - INFO - Memory test target shape: (501,)
+2025-11-07 23:04:45,001 - INFO - CPU training target shape: (2002,)
+2025-11-07 23:04:45,001 - INFO - CPU test target shape: (501,)
+2025-11-07 23:04:45,001 - INFO - 
+=== Training Hybrid Models (Quick Mode - Optimized) ===
+2025-11-07 23:04:45,001 - INFO - GPU acceleration: ENABLED
+2025-11-07 23:04:45,001 - INFO - Memory参数组合数: 972
+2025-11-07 23:04:45,001 - INFO - CPU参数组合数: 1,944
+2025-11-07 23:04:45,001 - INFO - Using GPU for training...
+2025-11-07 23:04:45,001 - INFO - 
+--- Training Memory Regression Model ---

@@ -1,0 +1,227 @@
+nohup: 忽略输入
+================================================================================
+Genetic Algorithm Multi-Core Optimization System (V2)
+Parallel Cores: 92
+Depth Range: 4 to 38 (35 depths)
+================================================================================
+
+================================================================================
+Processing: Config1 - 极低资源 (边缘/IoT)
+Limits: TCAM=5.0%, SRAM=1.0%, Stages=1
+================================================================================
+
+Launching parallel exploration for 35 depths...
+Starting parallel exploration with 35 processes...
+
+Depth |  Status  |    Rules |   TCAM% |   SRAM% | Stages |  T-Util |  S-Util | St-Util |     F1
+----------------------------------------------------------------------------------------------------
+    4 |    OK    |       16 |    1.21 |    0.17 |      1 |   24.2% |    0.0% |    0.0% | 73.52%
+    5 |    OK    |       31 |    1.21 |    0.17 |      1 |   24.2% |    0.0% |    0.0% | 77.63%
+    6 |    OK    |       54 |    1.21 |    0.17 |      1 |   24.2% |    0.0% |    0.0% | 82.88%
+    7 |    OK    |       84 |    1.21 |    0.17 |      1 |   24.2% |    0.0% |    0.0% | 84.30%
+    8 |    OK    |      132 |    1.18 |    0.18 |      1 |   23.6% |    0.0% |    0.0% | 85.28%
+    9 |    OK    |      192 |    1.33 |    0.18 |      1 |   26.6% |    0.0% |    0.0% | 86.61%
+   10 |    OK    |      276 |    2.35 |    0.18 |      1 |   47.1% |    0.0% |    0.0% | 86.86%
+   11 |    OK    |      382 |    2.67 |    0.17 |      1 |   53.4% |    0.0% |    0.0% | 87.45%
+   12 |    OK    |      506 |    3.58 |    0.18 |      1 |   71.5% |    0.0% |    0.0% | 88.16%
+   13 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   14 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   15 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+   16 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+   17 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   18 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   19 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   20 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+   21 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   22 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   23 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   24 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   25 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+   26 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+   27 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   28 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   29 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   30 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+   31 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   32 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   33 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   34 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   35 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+   36 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   37 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   38 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Exceeded)
+
+>> OPTIMAL: Depth=4, F1=73.52%, Rules=16
+   Resource: TCAM=1.21%, SRAM=0.17%, Stages=1
+   Match Config: {'Total length': 'range', 'Protocol': 'ternary', 'IPV4 Flags (DF)': 'ternary', 'Time to live': 'range', 'Src Port': 'range', 'Dst Port': 'range', 'TCP flags (Reset)': 'ternary', 'TCP flags (Syn)': 'lpm'}
+   Time: 250.76s
+
+================================================================================
+Processing: Config2 - 中低资源 (接入层)
+Limits: TCAM=30.0%, SRAM=4.0%, Stages=4
+================================================================================
+
+Launching parallel exploration for 35 depths...
+Starting parallel exploration with 35 processes...
+
+Depth |  Status  |    Rules |   TCAM% |   SRAM% | Stages |  T-Util |  S-Util | St-Util |     F1
+----------------------------------------------------------------------------------------------------
+    4 |    OK    |       16 |    1.21 |    0.17 |      1 |    4.0% |    0.0% |    0.0% | 73.52%
+    5 |    OK    |       31 |    1.21 |    0.17 |      1 |    4.0% |    0.0% |    0.0% | 77.63%
+    6 |    OK    |       54 |    1.21 |    0.17 |      1 |    4.0% |    0.0% |    0.0% | 82.88%
+    7 |    OK    |       84 |    1.21 |    0.17 |      1 |    4.0% |    0.0% |    0.0% | 84.30%
+    8 |    OK    |      132 |    1.18 |    0.18 |      1 |    3.9% |    0.0% |    0.0% | 85.28%
+    9 |    OK    |      192 |    1.33 |    0.18 |      1 |    4.4% |    0.0% |    0.0% | 86.61%
+   10 |    OK    |      276 |    2.35 |    0.18 |      1 |    7.8% |    0.0% |    0.0% | 86.86%
+   11 |    OK    |      382 |    2.67 |    0.17 |      1 |    8.9% |    0.0% |    0.0% | 87.45%
+   12 |    OK    |      506 |    3.58 |    0.18 |      1 |   11.9% |    0.0% |    0.0% | 88.16%
+   13 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   14 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   15 |    OK    |     1068 |    7.86 |    0.18 |      1 |   26.2% |    0.0% |    0.0% | 88.24%
+   16 |    OK    |      890 |    6.08 |    0.17 |      1 |   20.3% |    0.0% |    0.0% | 88.28%
+   17 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   18 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   19 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   20 |    OK    |     1914 |   14.11 |    0.23 |      2 |   47.0% |    0.0% |    0.0% | 88.43%
+   21 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   22 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   23 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   24 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   25 |    OK    |     2172 |   15.04 |    0.25 |      2 |   50.1% |    0.0% |    0.0% | 88.46%
+   26 |    OK    |     1542 |   11.12 |    0.21 |      2 |   37.1% |    0.0% |    0.0% | 88.47%
+   27 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   28 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   29 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   30 |    OK    |     2279 |   15.76 |    0.26 |      3 |   52.5% |    0.0% |    0.0% | 88.50%
+   31 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   32 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   33 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   34 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   35 |    OK    |     2312 |   16.14 |    0.26 |      3 |   53.8% |    0.0% |    0.0% | 88.51%
+   36 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   37 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   38 |    OK    |   167167 |   28.09 |    0.47 |      4 |   93.6% |    0.0% |    0.0% | 88.52%
+
+>> OPTIMAL: Depth=4, F1=73.52%, Rules=16
+   Resource: TCAM=1.21%, SRAM=0.17%, Stages=1
+   Match Config: {'Total length': 'range', 'Protocol': 'ternary', 'IPV4 Flags (DF)': 'ternary', 'Time to live': 'range', 'Src Port': 'range', 'Dst Port': 'range', 'TCP flags (Reset)': 'ternary', 'TCP flags (Syn)': 'lpm'}
+   Time: 316.23s
+
+================================================================================
+Processing: Config3 - 中高资源 (汇聚层)
+Limits: TCAM=55.0%, SRAM=7.0%, Stages=8
+================================================================================
+
+Launching parallel exploration for 35 depths...
+Starting parallel exploration with 35 processes...
+
+Depth |  Status  |    Rules |   TCAM% |   SRAM% | Stages |  T-Util |  S-Util | St-Util |     F1
+----------------------------------------------------------------------------------------------------
+    4 |    OK    |       16 |    1.21 |    0.17 |      1 |    2.2% |    0.0% |    0.0% | 73.52%
+    5 |    OK    |       31 |    1.21 |    0.17 |      1 |    2.2% |    0.0% |    0.0% | 77.63%
+    6 |    OK    |       54 |    1.21 |    0.17 |      1 |    2.2% |    0.0% |    0.0% | 82.88%
+    7 |    OK    |       84 |    1.21 |    0.17 |      1 |    2.2% |    0.0% |    0.0% | 84.30%
+    8 |    OK    |      132 |    1.18 |    0.18 |      1 |    2.1% |    0.0% |    0.0% | 85.28%
+    9 |    OK    |      192 |    1.33 |    0.18 |      1 |    2.4% |    0.0% |    0.0% | 86.61%
+   10 |    OK    |      276 |    2.35 |    0.18 |      1 |    4.3% |    0.0% |    0.0% | 86.86%
+   11 |    OK    |      382 |    2.67 |    0.17 |      1 |    4.9% |    0.0% |    0.0% | 87.45%
+   12 |    OK    |      506 |    3.58 |    0.18 |      1 |    6.5% |    0.0% |    0.0% | 88.16%
+   13 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   14 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   15 |    OK    |     1068 |    7.86 |    0.18 |      1 |   14.3% |    0.0% |    0.0% | 88.24%
+   16 |    OK    |     7120 |   52.79 |    0.76 |      7 |   96.0% |    0.0% |    0.0% | 88.28%
+   17 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   18 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   19 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   20 |    OK    |    10704 |   54.99 |    0.68 |      7 |  100.0% |    0.0% |    0.0% | 88.43%
+   21 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   22 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   23 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   24 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   25 |    OK    |    10865 |   54.92 |    0.71 |      7 |   99.9% |    0.0% |    0.0% | 88.46%
+   26 |    OK    |     6168 |   44.79 |    0.61 |      5 |   81.4% |    0.0% |    0.0% | 88.47%
+   27 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   28 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   29 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   30 |    OK    |    10658 |   54.91 |    0.72 |      7 |   99.8% |    0.0% |    0.0% | 88.50%
+   31 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   32 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   33 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   34 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   35 |    OK    |     4617 |   31.73 |    0.40 |      4 |   57.7% |    0.0% |    0.0% | 88.51%
+   36 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   37 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   38 |    OK    |     4629 |   31.71 |    0.40 |      4 |   57.7% |    0.0% |    0.0% | 88.52%
+
+>> OPTIMAL: Depth=6, F1=82.88%, Rules=54
+   Resource: TCAM=1.21%, SRAM=0.17%, Stages=1
+   Match Config: {'Total length': 'range', 'Protocol': 'ternary', 'IPV4 Flags (DF)': 'ternary', 'Time to live': 'range', 'Src Port': 'range', 'Dst Port': 'range', 'TCP flags (Reset)': 'ternary', 'TCP flags (Syn)': 'lpm'}
+   Time: 228.42s
+
+================================================================================
+Processing: Config4 - 高资源 (核心层)
+Limits: TCAM=80.0%, SRAM=10.0%, Stages=12
+================================================================================
+
+Launching parallel exploration for 35 depths...
+Starting parallel exploration with 35 processes...
+
+Depth |  Status  |    Rules |   TCAM% |   SRAM% | Stages |  T-Util |  S-Util | St-Util |     F1
+----------------------------------------------------------------------------------------------------
+    4 |    OK    |    11368 |   59.65 |    0.68 |      7 |   74.6% |    0.0% |    0.0% | 73.52%
+    5 |    OK    |    15392 |   75.99 |    1.02 |      9 |   95.0% |    0.0% |    0.0% | 77.63%
+    6 |    OK    |    15720 |   79.99 |    1.02 |     10 |  100.0% |    0.0% |    0.0% | 82.88%
+    7 |    OK    |    14992 |   78.58 |    1.05 |     10 |   98.2% |    0.0% |    0.0% | 84.30%
+    8 |    OK    |    14548 |   74.86 |    0.93 |      9 |   93.6% |    0.0% |    0.0% | 85.28%
+    9 |    OK    |    15602 |   79.99 |    1.03 |     10 |  100.0% |    0.0% |    0.0% | 86.61%
+   10 |    OK    |    15264 |   77.00 |    1.06 |     10 |   96.3% |    0.0% |    0.0% | 86.86%
+   11 |    OK    |    15556 |   79.21 |    1.04 |     10 |   99.0% |    0.0% |    0.0% | 87.45%
+   12 |    OK    |    15996 |   78.77 |    1.02 |     10 |   98.5% |    0.0% |    0.0% | 88.16%
+   13 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   14 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   15 |    OK    |    15147 |   77.22 |    1.01 |     10 |   96.5% |    0.0% |    0.0% | 88.24%
+   16 |    OK    |    14116 |   73.52 |    0.95 |      9 |   91.9% |    0.0% |    0.0% | 88.28%
+   17 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   18 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   19 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   20 |    OK    |    11547 |   60.13 |    0.83 |      8 |   75.2% |    0.0% |    0.0% | 88.43%
+   21 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   22 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   23 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   24 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   25 |    OK    |    12466 |   65.30 |    0.86 |      8 |   81.6% |    0.0% |    0.0% | 88.46%
+   26 |    OK    |    14986 |   77.52 |    1.05 |     10 |   96.9% |    0.0% |    0.0% | 88.47%
+   27 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   28 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   29 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   30 |    OK    |    13336 |   73.07 |    0.94 |      9 |   91.3% |    0.0% |    0.0% | 88.50%
+   31 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   32 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   33 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   34 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   35 |    OK    |    13068 |   70.32 |    0.90 |      9 |   87.9% |    0.0% |    0.0% | 88.51%
+   36 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   37 |   FAIL   |        - |       - |       - |      - |       - |       - |       - |      -  (Model not found)
+   38 |    OK    |    13106 |   70.88 |    0.94 |      9 |   88.6% |    0.0% |    0.0% | 88.52%
+
+>> OPTIMAL: Depth=26, F1=88.47%, Rules=14986
+   Resource: TCAM=77.52%, SRAM=1.05%, Stages=10
+   Match Config: {'Total length': 'ternary', 'Protocol': 'lpm', 'IPV4 Flags (DF)': 'ternary', 'Time to live': 'range', 'Src Port': 'range', 'Dst Port': 'range', 'TCP flags (Reset)': 'exact', 'TCP flags (Syn)': 'ternary'}
+   Time: 209.73s
+
+
+================================================================================
+EXPERIMENT SUMMARY
+================================================================================
+
+  Config   |  Depth |      F1 |    Rules |   TCAM% |   SRAM% | Stages |     Time
+--------------------------------------------------------------------------------
+ Config1   |      4 |  73.52% |       16 |    1.21 |    0.17 |      1 |  250.76s
+ Config2   |      4 |  73.52% |       16 |    1.21 |    0.17 |      1 |  316.23s
+ Config3   |      6 |  82.88% |       54 |    1.21 |    0.17 |      1 |  228.42s
+ Config4   |     26 |  88.47% |    14986 |   77.52 |    1.05 |     10 |  209.73s
+
+Total Time: 1005.15s
+================================================================================
+
+Results saved to: /mnt/8T/xgr/yaorunze/Dryad/src/ga_results.json

@@ -1,0 +1,40 @@
+2025-11-07 21:36:18,935 - INFO - ============================================================
+2025-11-07 21:36:18,936 - INFO - Dryad BMv2 Enhanced Predictor Initialized
+2025-11-07 21:36:18,936 - INFO - ============================================================
+2025-11-07 21:36:18,936 - INFO - === Loading and Processing Data ===
+2025-11-07 21:36:18,948 - INFO - Loaded 2503 records
+2025-11-07 21:36:18,949 - INFO - Checking data quality...
+2025-11-07 21:36:18,954 - INFO - CPU stats: mean=0.508, std=0.079
+2025-11-07 21:36:18,954 - INFO - Memory stats: mean=26.867, std=0.318
+2025-11-07 21:36:19,023 - INFO - Creating enhanced derived features...
+2025-11-07 21:36:19,065 - INFO - Added enhanced derived features. Final shape: (2503, 16)
+2025-11-07 21:36:19,068 - INFO - CPU unique values (×100): [30 39 40 49 50 59 60 70 80 90]
+2025-11-07 21:36:19,068 - INFO - CPU number of classes: 10
+2025-11-07 21:36:19,069 - INFO - CPU class distribution:
+2025-11-07 21:36:19,069 - INFO -   0.30 (30): 22 samples (0.88%)
+2025-11-07 21:36:19,069 - INFO -   0.39 (39): 1 samples (0.04%)
+2025-11-07 21:36:19,069 - INFO -   0.40 (40): 517 samples (20.66%)
+2025-11-07 21:36:19,069 - INFO -   0.49 (49): 3 samples (0.12%)
+2025-11-07 21:36:19,070 - INFO -   0.50 (50): 1280 samples (51.14%)
+2025-11-07 21:36:19,070 - INFO -   0.59 (59): 3 samples (0.12%)
+2025-11-07 21:36:19,070 - INFO -   0.60 (60): 604 samples (24.13%)
+2025-11-07 21:36:19,070 - INFO -   0.70 (70): 62 samples (2.48%)
+2025-11-07 21:36:19,070 - INFO -   0.80 (80): 10 samples (0.40%)
+2025-11-07 21:36:19,070 - INFO -   0.90 (90): 1 samples (0.04%)
+2025-11-07 21:36:19,070 - INFO - Feature matrix shape: (2503, 16)
+2025-11-07 21:36:19,071 - INFO - Memory target shape: (2503,)
+2025-11-07 21:36:19,071 - INFO - CPU categorical target shape: (2503,)
+2025-11-07 21:36:19,071 - INFO - CPU range: 0.30 - 0.90
+2025-11-07 21:36:19,071 - INFO - Memory range: 26.03 - 27.68
+2025-11-07 21:36:19,083 - INFO - Training samples: 2002
+2025-11-07 21:36:19,083 - INFO - Test samples: 501
+2025-11-07 21:36:19,083 - INFO - Memory training target shape: (2002,)
+2025-11-07 21:36:19,083 - INFO - Memory test target shape: (501,)
+2025-11-07 21:36:19,083 - INFO - CPU training target shape: (2002,)
+2025-11-07 21:36:19,083 - INFO - CPU test target shape: (501,)
+2025-11-07 21:36:19,083 - INFO - 
+=== Training Hybrid Models ===
+2025-11-07 21:36:19,083 - INFO - 
+--- Training Memory Regression Model (LGBMRegressor) ---
+2025-11-07 21:36:19,083 - INFO - Memory parameter grid size: 19 combinations
+2025-11-07 21:36:19,083 - INFO - Starting Memory model grid search...

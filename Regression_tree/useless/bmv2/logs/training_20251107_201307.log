@@ -1,0 +1,72 @@
+2025-11-07 20:13:07,137 - INFO - ============================================================
+2025-11-07 20:13:07,137 - INFO - Dryad BMv2 Enhanced Predictor Initialized
+2025-11-07 20:13:07,137 - INFO - ============================================================
+2025-11-07 20:13:07,137 - INFO - === Loading and Processing Data ===
+2025-11-07 20:13:07,148 - INFO - Loaded 2503 records
+2025-11-07 20:13:07,148 - INFO - Checking data quality...
+2025-11-07 20:13:07,152 - INFO - CPU stats: mean=0.508, std=0.079
+2025-11-07 20:13:07,153 - INFO - Memory stats: mean=26.867, std=0.318
+2025-11-07 20:13:07,260 - INFO - Creating enhanced derived features...
+2025-11-07 20:13:07,300 - INFO - Added enhanced derived features. Final shape: (2503, 16)
+2025-11-07 20:13:07,303 - INFO - CPU unique values (×100): [30 39 40 49 50 59 60 70 80 90]
+2025-11-07 20:13:07,304 - INFO - CPU number of classes: 10
+2025-11-07 20:13:07,304 - INFO - CPU class distribution:
+2025-11-07 20:13:07,304 - INFO -   0.30 (30): 22 samples (0.88%)
+2025-11-07 20:13:07,304 - INFO -   0.39 (39): 1 samples (0.04%)
+2025-11-07 20:13:07,304 - INFO -   0.40 (40): 517 samples (20.66%)
+2025-11-07 20:13:07,305 - INFO -   0.49 (49): 3 samples (0.12%)
+2025-11-07 20:13:07,305 - INFO -   0.50 (50): 1280 samples (51.14%)
+2025-11-07 20:13:07,305 - INFO -   0.59 (59): 3 samples (0.12%)
+2025-11-07 20:13:07,306 - INFO -   0.60 (60): 604 samples (24.13%)
+2025-11-07 20:13:07,306 - INFO -   0.70 (70): 62 samples (2.48%)
+2025-11-07 20:13:07,306 - INFO -   0.80 (80): 10 samples (0.40%)
+2025-11-07 20:13:07,307 - INFO -   0.90 (90): 1 samples (0.04%)
+2025-11-07 20:13:07,307 - INFO - Feature matrix shape: (2503, 16)
+2025-11-07 20:13:07,307 - INFO - Memory target shape: (2503,)
+2025-11-07 20:13:07,307 - INFO - CPU categorical target shape: (2503,)
+2025-11-07 20:13:07,308 - INFO - CPU range: 0.30 - 0.90
+2025-11-07 20:13:07,308 - INFO - Memory range: 26.03 - 27.68
+2025-11-07 20:13:07,315 - INFO - Training samples: 2002
+2025-11-07 20:13:07,316 - INFO - Test samples: 501
+2025-11-07 20:13:07,316 - INFO - Memory training target shape: (2002,)
+2025-11-07 20:13:07,316 - INFO - Memory test target shape: (501,)
+2025-11-07 20:13:07,316 - INFO - CPU training target shape: (2002,)
+2025-11-07 20:13:07,316 - INFO - CPU test target shape: (501,)
+2025-11-07 20:13:07,317 - INFO - 
+=== Training Hybrid Models (Quick Mode) ===
+2025-11-07 20:13:07,317 - INFO - 
+--- Training Memory Regression Model ---
+2025-11-07 20:14:01,662 - INFO - Memory best CV score: 0.7943
+2025-11-07 20:14:01,663 - INFO - 
+--- Training CPU Classification Model ---
+2025-11-07 20:16:22,916 - INFO - CPU best CV score: 0.4615
+2025-11-07 20:16:22,916 - INFO - 
+Total training time: 195.60 seconds
+2025-11-07 20:16:22,916 - INFO - 
+=== Model Performance ===
+2025-11-07 20:16:22,916 - INFO - 
+--- Memory Regression Model (LGBMRegressor) ---
+2025-11-07 20:16:22,926 - INFO -   Training R²: 0.8630, MAE: 0.0957, RMSE: 0.1183
+2025-11-07 20:16:22,926 - INFO -   Test R²: 0.8021, MAE: 0.1125, RMSE: 0.1389
+2025-11-07 20:16:22,926 - INFO - 
+--- CPU Classification Model (LGBMClassifier) ---
+2025-11-07 20:16:22,979 - INFO -   Training Accuracy: 0.7762, F1 (weighted): 0.7620
+2025-11-07 20:16:22,979 - INFO -   Test Accuracy: 0.4850, F1 (weighted): 0.3929
+2025-11-07 20:16:22,979 - INFO - 
+  Test Confusion Matrix:
+2025-11-07 20:16:22,979 - INFO - 
+[[  0   0   0   5   0   0   0]
+ [  0   4   0  85   4   0   0]
+ [  0   0   0   2   0   0   0]
+ [  0   9   0 226  27   1   0]
+ [  0  11   0 100  13   0   0]
+ [  0   0   0   9   2   0   0]
+ [  0   0   0   3   0   0   0]]
+2025-11-07 20:16:22,981 - INFO - 
+  Reference Metrics (converted from classification):
+2025-11-07 20:16:22,981 - INFO -   Training MAE: 0.0234, RMSE: 0.0505
+2025-11-07 20:16:22,981 - INFO -   Test MAE: 0.0583, RMSE: 0.0859
+2025-11-07 20:16:22,982 - INFO - Creating visualizations...
+2025-11-07 20:17:02,607 - INFO - Visualizations saved to plots/ directory
+2025-11-07 20:17:02,712 - INFO - Models saved successfully!
+2025-11-07 20:17:02,714 - INFO - Training history saved to logs\training_history_20251107_201702.json
